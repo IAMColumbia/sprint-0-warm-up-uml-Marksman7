@@ -8,7 +8,7 @@ namespace Sprint_0_Warm_Up
     {
         public Airplane()
         {
-            Name = "OOPFlying";
+            Name = "OOPFlying.Airplane";
 
             CurrentAltitude = 0;
 
@@ -24,7 +24,7 @@ namespace Sprint_0_Warm_Up
         {
             string Abouts = "";
 
-                Abouts = "This " + Name + ".Airplane has a max altitude of " + MaxAltitude + "ft.\n Its currently at a altitude of " + CurrentAltitude + " ft.\n" + Name + "." + Engine.Abouting();
+                Abouts = "This " + Name + " has a max altitude of " + MaxAltitude + "ft.\n Its currently at a altitude of " + CurrentAltitude + " ft.\n" + Name + "." + Engine.Abouting();
 
             return Abouts;
         }
@@ -33,7 +33,7 @@ namespace Sprint_0_Warm_Up
         {
             string TakeOffs = "";
 
-                TakeOffs = Name + ".Airplane can fly its " + Engine.Abouting();
+                TakeOffs = Name + " can fly its " + Engine.Abouting();
 
             return TakeOffs;
         }
@@ -44,7 +44,7 @@ namespace Sprint_0_Warm_Up
 
             Engine.Istarted = true;
 
-            StartEngines = Name + ".Airplane is flying";
+            StartEngines = Name + " is flying";
 
             return StartEngines;
         }
@@ -58,7 +58,7 @@ namespace Sprint_0_Warm_Up
                 CurrentAltitude = CurrentAltitude - howMuch;
             }
 
-            Flys = "This " + Name + ".AerialVehicle has a max altitude of " + MaxAltitude + "ft. \nIts current altitude is " + CurrentAltitude + " ft.\n" + Name + "." + Engine.Abouting();
+            Flys = "This " + Name + " has a max altitude of " + MaxAltitude + "ft. \nIts current altitude is " + CurrentAltitude + " ft.\n" + Name + "." + Engine.Abouting();
 
             return Flys;
         }
@@ -72,7 +72,7 @@ namespace Sprint_0_Warm_Up
                 CurrentAltitude = CurrentAltitude + HowMuch;
             }
 
-            Flys = "This " + Name + ".AerialVehicle has a max altitude of " + MaxAltitude + "ft. \nIts current altitude is " + CurrentAltitude + " ft.\n" + Name + "." + Engine.Abouting();
+            Flys = "This " + Name + " has a max altitude of " + MaxAltitude + "ft. \nIts current altitude is " + CurrentAltitude + " ft.\n" + Name + "." + Engine.Abouting();
 
             return Flys;
         }
