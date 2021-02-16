@@ -23,13 +23,25 @@ namespace Sprint_0_Warm_Up
                  * many of the airplane class methods return a string we will write these to the console for testing
                  */
                 Airplane ap = new Airplane();
+                Helicopter Hp = new Helicopter();
+                Drone Dp = new Drone();
+                ToyWoundUpPlane TWp = new ToyWoundUpPlane();
+                AirPort ace = new AirPort();
                 //Air plane should inherit from AerialVehicle
                 WriteLine(ap.About());
+                WriteLine("\nDrone.cs...............................................................");
+                WriteLine(Dp.About());
+                WriteLine("\nToyPlane.cs...............................................................");
+                WriteLine(TWp.About());
+                WriteLine("\nHelicopter.cs...............................................................");
+                WriteLine(Hp.About());
                 /* Output AirplaneAbout:
                  * This OOPFlyingVehicle.Airplane has a max altitude of 41000 ft.
                  * It's current altitude is 0 ft.
                  * OOPFlyingVehicleMidterm.Airplane engine is not started
                  */
+
+
 
                 WriteLine("\nAireplaneTakeOffTests...............................................................");
                 WriteLine("\nCall ap.TakeOff():");
@@ -68,6 +80,7 @@ namespace Sprint_0_Warm_Up
                 WriteLine("Call ap.FlyDown(ap.CurrentAltitude) this should land");
                 ap.FlyDown(ap.CurrentAltitude); //Land by flying down current altitiute
                 WriteLine(ap.About());
+                
             }
         }
     }
