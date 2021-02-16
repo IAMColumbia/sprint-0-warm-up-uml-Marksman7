@@ -127,7 +127,7 @@ namespace Sprint_0_Warm_Up
             return Flys;
         }
 
-    internal virtual string FlyUp(int HowMuch)
+    public virtual string FlyUp(int HowMuch)
         {
             string Flys = "";
 

@@ -19,5 +19,14 @@ namespace Sprint_0_Warm_Up
             Engine.Istarted = false;
 
         }
+
+
+        public Drone(string Name, int CurrentAltitude, bool Isflying, int MaxAtitude)
+        {
+            this.Name = Name;
+            this.CurrentAltitude = CurrentAltitude;
+            this.Isflying = Isflying;
+            this.MaxAltitude = MaxAltitude;
+        }
     }
 }

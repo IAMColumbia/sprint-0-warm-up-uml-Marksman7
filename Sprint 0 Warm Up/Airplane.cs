@@ -63,7 +63,7 @@ namespace Sprint_0_Warm_Up
             return Flys;
         }
 
-        internal override string FlyUp(int HowMuch)
+        public override string FlyUp(int HowMuch)
         {
             string Flys = "";
 
