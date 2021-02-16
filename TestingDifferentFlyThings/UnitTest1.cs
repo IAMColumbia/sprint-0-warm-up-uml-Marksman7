@@ -32,10 +32,10 @@ namespace TestingDifferentFlyThings
             
         }
 
-        public void AerialVheilceClass()
+        /*public void AerialVheilceClass()
         {
             var All = Activator.CreateInstance<AerialVehicle>();
-        }
+        }*/
 
     }
 }
