@@ -23,8 +23,8 @@ namespace TestingDifferentFlyThings
 
             A.TakeOff();
             A.ToString();
-            A.StopEngine();
             A.StartEngine();
+            A.StopEngine();
             A.About();
             A.FlyUp(100);
             A.FlyDown(100);
